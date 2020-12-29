@@ -1,5 +1,4 @@
 apply plugin: 'com.android.library'
-apply plugin: 'com.novoda.bintray-release'
 android {
     compileSdkVersion 29
     buildToolsVersion rootProject.ext.android.buildToolsVersion
@@ -25,14 +24,6 @@ android {
         targetCompatibility = 1.8
     }
 
-}
-publish {
-    userOrg = 'zhujiangbin'
-    groupId = 'com.jxkj.jxutilsx'
-    artifactId = 'jxutilsx'
-    publishVersion = '1.0.1'
-    desc = '适配Anroid X'
-    website = 'https://github.com/zhujiangbin/jxutilsx'//网站，不重要
 }
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
