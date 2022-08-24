@@ -1,5 +1,4 @@
 *.iml
-.gradle
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
@@ -24,7 +23,5 @@
 .idea/modules/-1585424910/
 .idea/modules/417307346/
 .idea/vcs.xml
-gradlew
-gradlew.bat
 czmh_user.jks
 gradle/
