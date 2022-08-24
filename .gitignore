@@ -1,6 +1,5 @@
 *.iml
 .gradle
-/local.properties
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
@@ -27,13 +26,5 @@
 .idea/vcs.xml
 gradlew
 gradlew.bat
-config.gradle
 czmh_user.jks
-gradle.properties
 gradle/
-library/build.gradle
-library/consumer-rules.pro
-library/nexus_maven_push.gradle
-library/proguard-rules.pro
-library/src/
-settings.gradle
