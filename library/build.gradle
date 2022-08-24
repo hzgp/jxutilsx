@@ -3,7 +3,6 @@ plugins {
     id 'kotlin-android'
     id 'kotlin-kapt'
     id 'maven-publish'
-    id 'com.novoda.bintray-release'
 }
 def GROUP_ID="com.mzg.utilsx"
 def ARTIFACT_ID="core"
